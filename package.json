@@ -1,0 +1,31 @@
+{
+  "name": "@aneron/loot-roll",
+  "version": "1.0.0",
+  "description": "Weighted loot rolls with a pity counter.",
+  "license": "MIT",
+  "author": "Vadim Gubin",
+  "repository": "git+https://github.com/ANERON-GAMES/loot-roll.git",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10"
+  }
+}
